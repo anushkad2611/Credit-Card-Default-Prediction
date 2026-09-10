@@ -12,7 +12,7 @@ The primary objective is to identify patterns in customer demographics, credit u
 
 The EDA delves into various aspects of the dataset, including:
 
-* - Customer demographics and age distribution
+Customer demographics and age distribution
 * - Credit limits
 * - Billing and payment amounts
 * - Repayment history
