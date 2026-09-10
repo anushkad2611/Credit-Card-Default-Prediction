@@ -13,14 +13,14 @@ The primary objective is to identify patterns in customer demographics, credit u
 The EDA delves into various aspects of the dataset, including:
 
 Customer demographics and age distribution
-* - Credit limits
-* - Billing and payment amounts
-* - Repayment history
-* - Default distribution
-* - Correlations between variables
-* - Credit utilization and payment behavior
-* 
-After preprocessing, the dataset comprises over 25,000 customer records, with approximately 19% of customers classified as defaulters.
+* Credit limits
+* Billing and payment amounts
+* Repayment history
+* Default distribution
+* Correlations between variables
+* Credit utilization and payment behavior
+  
+After preprocessing, the dataset comprises over 30,000 customer records, with approximately 19% of customers classified as defaulters.
 
 **Feature Engineering**
 
@@ -36,7 +36,7 @@ Several behavioral features were meticulously crafted to capture customer risk, 
 * 
 **Handling Class Imbalance**
 
-Since default cases constitute a minority of the dataset, SMOTETomek was employed on the training data to enhance the model’s ability to learn from the minority class.
+Since default cases constitute a minority of the dataset, SMOTET was employed on the training data to enhance the model’s ability to learn from the minority class.
 
 **Machine Learning Models**
 
