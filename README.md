@@ -1,4 +1,4 @@
-**Credit Card Default Prediction**
+#Credit Card Default Prediction
 
 This machine learning project aims to predict whether a credit card customer is likely to default on their payment in the upcoming month.
 
