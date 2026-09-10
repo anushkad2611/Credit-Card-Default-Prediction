@@ -26,13 +26,13 @@ After preprocessing, the dataset comprises over 30,000 customer records, with ap
 
 Several behavioral features were meticulously crafted to capture customer risk, such as:
 
-* - Credit Utilization Ratio
-* - Delayed Payment Count
-* - Recent Overdue Count
-* - Maximum Payment Delay
-* - Payment-to-Bill Ratio
-* - Payment Volatility
-* - Delinquency Streak
+* Credit Utilization Ratio
+* Delayed Payment Count
+* Recent Overdue Count
+* Maximum Payment Delay
+* Payment-to-Bill Ratio
+* Payment Volatility
+* Delinquency Streak
 * 
 **Handling Class Imbalance**
 
@@ -42,18 +42,18 @@ Since default cases constitute a minority of the dataset, SMOTET was employed on
 
 The project evaluates a diverse range of classification algorithms, including:
 
-* - Logistic Regression
-* - Random Forest
-* - XGBoost
-* - LightGBM
-* 
+* Logistic Regression
+* Random Forest
+* XGBoost
+* LightGBM
+  
 These models are assessed using various evaluation metrics, including:
 
-* - AUC-ROC
-* - Accuracy
-* - Precision
-* - Recall
+* AUC-ROC
+* Accuracy
+* Precision
+* Recall
 F1 Score, F2 Score, and Confusion Matrix are key metrics used to evaluate the performance of a classification model. By analyzing different classification thresholds, we can understand the trade-off between precision, recall, F1 score, F2 score, and accuracy. The analysis revealed that optimizing for F2 score can enhance recall-oriented performance but may significantly decrease overall accuracy. Therefore, the 0.5 threshold was chosen as a practical balance.
 
 * The technologies used in this project include Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Imbalanced-learn, XGBoost, and LightGBM.
-* 
+  
